@@ -1,0 +1,1 @@
+enum AudioStatus { idle, loading, playing, paused, error }

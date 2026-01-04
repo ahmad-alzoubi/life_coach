@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68852307398",
+    "project_id": "coachlife-1bf59",
+    "storage_bucket": "coachlife-1bf59.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68852307398:android:df69eac35eb49fde840ec7",
+        "android_client_info": {
+          "package_name": "com.social.coachLife.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpUvrgOLXPP4a3e3stTYN1lJ0aFo9JciQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68852307398:android:96c3ba07b1207f4e840ec7",
+        "android_client_info": {
+          "package_name": "com.social.coachLife.coach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpUvrgOLXPP4a3e3stTYN1lJ0aFo9JciQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

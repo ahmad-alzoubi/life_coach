@@ -1,0 +1,51 @@
+group 'io.agora.agora_flutter_uikit'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.6.0'
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    namespace 'io.agora.agora_flutter_uikit'
+    compileSdkVersion 33
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    defaultConfig {
+        minSdkVersion 16
+    }
+    kotlinOptions {
+        jvmTarget = '1.8' // Use a valid target like '1.8'
+    }
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libaosl.so'
+        pickFirst 'lib/armeabi-v7a/libaosl.so'
+        pickFirst 'lib/x86/libaosl.so'
+        pickFirst 'lib/x86_64/libaosl.so'
+        
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

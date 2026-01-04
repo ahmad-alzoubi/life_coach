@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="facebook_app_id">587999630596111</string>
+  <string name="facebook_client_token">c8f8964297d7b45abd4904f91e7a0a4a</string>
+  <string name="fb_login_protocol_scheme">fb587999630596111</string>
+  <string name="app_name">Life coach</string>
+  <string name="call_in_progress_notification">Call in progress</string>
+  <string name="call_notification_channel_name">Active call</string>
+  <string name="call_notification_channel_description">Shows while a call is active</string>
+</resources>
