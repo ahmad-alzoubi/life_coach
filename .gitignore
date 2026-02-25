@@ -43,3 +43,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# codex-upload-ignore-start
+# Exclude build/generated artifacts for private GitHub backups
+build/
+dist/
+out/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+target/
+release/
+debug/
+.gradle/
+DerivedData/
+.cache/
+temp/
+tmp/
+node_modules/
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+# codex-upload-ignore-end
